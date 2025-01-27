@@ -18,7 +18,7 @@ The project includes the Dockerfile of the app, the python script and docker-com
    $sudo docker-compose up
 
 5. Get the output
-   open a web browser and get to: http://localhost:5000/pca
+   open a web browser and go to: http://localhost:5000/pca
 
 6. Don't forget to execute docker-compose down
    '''bash
