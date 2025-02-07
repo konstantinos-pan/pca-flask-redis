@@ -8,24 +8,31 @@ The project includes the Dockerfile of the app, the python script and docker-com
 1) Clone the repository
    '''bash
    $git clone https://github.com/konstantinos-pan/pca-flask-redis.git
+   '''
 
-2) Go the directory of the repository folder
+3) Go the directory of the repository folder
    '''bash
    $cd ~/pca-flask-redis
+   '''
 
-3) Run the app using docker-compose
+5) Run the app using docker-compose
    '''bash
    $sudo docker-compose up
+   '''
 
-4) Get the output
+7) Get the output
    open a web browser and go to: http://localhost:5000/pca
 
-5) Don't forget to execute docker-compose down
+8) Don't forget to execute docker-compose down
    '''bash
    $sudo docker-compose down
+   '''
 
 
 ## Troubleshoot
 
 If during step 3 you get an error "for redis Cannot start server redis", you may have redis-server already running.
-In this case, run the command "$ /etc/init.d/redis-server stop"
+In this case, run the command 
+'''bash
+$ /etc/init.d/redis-server stop
+'''
